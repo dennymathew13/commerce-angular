@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-label="Green notebook and pencil on a lavender background">
+  <rect width="480" height="440" fill="#e2deea"/>
+  <ellipse cx="240" cy="363" rx="133" ry="17" fill="#ccc6d7"/>
+  <g transform="rotate(-8 240 230)">
+    <rect x="130" y="89" width="220" height="285" rx="12" fill="#526b58"/>
+    <rect x="149" y="89" width="7" height="285" fill="#3d5144"/>
+    <circle cx="250" cy="222" r="38" fill="#e7c16d"/>
+    <path d="M224 222h52" stroke="#526b58" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="m338 330 62-210" stroke="#d95d39" stroke-width="16" stroke-linecap="round"/>
+  <path d="m400 120 8-27-22 18z" fill="#273024"/>
+</svg>

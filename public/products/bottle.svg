@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-label="Reusable water bottle on a blue background">
+  <rect width="480" height="440" fill="#d9e8e9"/>
+  <ellipse cx="240" cy="378" rx="88" ry="18" fill="#bdd1d1"/>
+  <path d="M194 112h92l18 48v173c0 31-25 56-56 56h-16c-31 0-56-25-56-56V160z" fill="#53777a"/>
+  <rect x="205" y="70" width="70" height="58" rx="14" fill="#31575b"/>
+  <path d="M210 85h60" stroke="#77979a" stroke-width="5"/>
+  <circle cx="240" cy="252" r="32" fill="#d9e8e9"/>
+  <path d="M224 252h32" stroke="#53777a" stroke-width="6" stroke-linecap="round"/>
+</svg>

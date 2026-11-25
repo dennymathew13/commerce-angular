@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-label="Green stoneware mug on a cream background">
+  <rect width="480" height="440" fill="#eee9dc"/>
+  <ellipse cx="230" cy="359" rx="125" ry="20" fill="#d9d2c0"/>
+  <path d="M142 142h196v160c0 40-32 72-72 72h-52c-40 0-72-32-72-72z" fill="#6d8460"/>
+  <path d="M331 181h22c47 0 47 91 0 91h-24" fill="none" stroke="#526b48" stroke-width="25"/>
+  <ellipse cx="240" cy="142" rx="98" ry="24" fill="#526b48"/>
+  <ellipse cx="240" cy="143" rx="75" ry="13" fill="#5e3929"/>
+</svg>

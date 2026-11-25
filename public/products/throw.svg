@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-label="Folded green throw blanket on a pink background">
+  <rect width="480" height="440" fill="#eadcda"/>
+  <ellipse cx="240" cy="369" rx="147" ry="20" fill="#d5c2c0"/>
+  <path d="M112 265h256v92H112z" fill="#788f69"/>
+  <path d="M135 178h238l-5 87H112z" fill="#627a57"/>
+  <path d="M154 100h192l27 78H135z" fill="#8fa17e"/>
+  <path d="M143 320h194M147 218h196M172 139h152" stroke="#afbf9f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M125 357v24m18-24v24m194-24v24m18-24v24" stroke="#627a57" stroke-width="5" stroke-linecap="round"/>
+</svg>

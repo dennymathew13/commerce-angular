@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-label="Scented candle on a soft yellow background">
+  <rect width="480" height="440" fill="#f3e7c9"/>
+  <ellipse cx="240" cy="362" rx="120" ry="20" fill="#ded0af"/>
+  <path d="M149 166h182v161c0 29-24 53-53 53h-76c-29 0-53-24-53-53z" fill="#f7f2e8"/>
+  <ellipse cx="240" cy="166" rx="91" ry="24" fill="#ddd2bc"/>
+  <ellipse cx="240" cy="164" rx="75" ry="16" fill="#fff8e8"/>
+  <path d="M240 156c-24-28 8-54 8-54 5 25 32 35 5 57z" fill="#e1843f"/>
+  <rect x="188" y="231" width="104" height="62" rx="5" fill="#d7dfca"/>
+  <path d="M213 258h54" stroke="#647a52" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-label="Terracotta linen cushion on a light background">
+  <rect width="480" height="440" fill="#e6e9e1"/>
+  <ellipse cx="240" cy="365" rx="150" ry="22" fill="#cbd1c6"/>
+  <path d="M112 109c85 13 171 13 256 0 12 82 12 165 0 247-85-13-171-13-256 0-12-82-12-165 0-247z" fill="#c96d4f"/>
+  <path d="M137 137c69 10 137 10 206 0M137 328c69-10 137-10 206 0" fill="none" stroke="#df9277" stroke-width="4"/>
+  <circle cx="240" cy="233" r="10" fill="#a85038"/>
+</svg>
