@@ -1,0 +1,124 @@
+.site-header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  border-bottom: 1px solid #e8eae6;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+}
+
+.header-inner {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  grid-template-columns: auto minmax(220px, 520px) auto;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store-name {
+  color: #20231f;
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  text-decoration: none;
+}
+
+.store-name span {
+  color: #d95d39;
+}
+
+.search-box {
+  display: flex;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 1px solid #dfe2dc;
+  border-radius: 999px;
+  background: #f7f8f5;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.search-box:focus-within {
+  border-color: #647a52;
+  outline: 3px solid rgba(100, 122, 82, 0.14);
+}
+
+.search-box svg {
+  width: 1.2rem;
+  fill: none;
+  stroke: #667064;
+  stroke-width: 1.8;
+}
+
+.search-box input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #20231f;
+  font-size: 0.95rem;
+}
+
+.cart-button {
+  position: relative;
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: #eef1eb;
+  place-items: center;
+}
+
+.cart-button:hover {
+  background: #e1e7dc;
+}
+
+.cart-button svg {
+  width: 1.35rem;
+  fill: none;
+  stroke: #273024;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.cart-count {
+  position: absolute;
+  top: -0.2rem;
+  right: -0.2rem;
+  display: grid;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #d95d39;
+  color: white;
+  font-size: 0.65rem;
+  place-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    padding: 0.85rem 1rem;
+    grid-template-columns: 1fr auto;
+    gap: 0.8rem;
+  }
+
+  .search-box {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
