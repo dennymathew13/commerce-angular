@@ -1,12 +1,19 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { HeaderComponent } from './components/header/header';
+import { PromoBannerComponent } from './components/promo-banner/promo-banner';
+import { ProductGridComponent } from './components/product-grid/product-grid';
+import { FooterComponent } from './components/footer/footer';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.scss',
+  standalone: true,
+  imports: [
+    HeaderComponent,
+    PromoBannerComponent,
+    ProductGridComponent,
+    FooterComponent,
+  ],
   templateUrl: './app.html',
+  styleUrl: './app.scss',
 })
-export class App {
-  protected readonly title = signal('commerce-angular');
-}
+export class App {}
