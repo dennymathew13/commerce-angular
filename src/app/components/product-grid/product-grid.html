@@ -1,0 +1,27 @@
+<section class="products" id="featured-products" aria-labelledby="products-title">
+  <div class="section-heading">
+    <div>
+      <p>Made for everyday</p>
+      <h2 id="products-title">Featured products</h2>
+    </div>
+    <span>{{ products.length }} items</span>
+  </div>
+
+  <div class="product-grid">
+    @for (product of products; track product.name) {
+      <article class="product-card">
+        <div class="image-wrap">
+          <img [src]="product.image" [alt]="product.name" />
+        </div>
+        <div class="product-details">
+          <p class="category">{{ product.category }}</p>
+          <h3>{{ product.name }}</h3>
+          <div class="product-footer">
+            <span class="price">{{ product.price | currency: 'USD' : 'symbol' : '1.0-0' }}</span>
+            <button type="button" [attr.aria-label]="'Add ' + product.name + ' to cart'">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+    }
+  </div>
+</section>
